@@ -35,7 +35,7 @@ export default function App() {
         })}
       >
         <Tab.Screen name="Faculties" component={Faculty} />
-      
+      <tab.Screen name = "courses" component={Course} />
         <Tab.Screen name="Quiz" component={Quiz} />
       </Tab.Navigator>
     </NavigationContainer>
